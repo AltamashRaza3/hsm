@@ -82,7 +82,7 @@ export const courses = [
     modules: ["Confined space hazards", "Atmospheric monitoring", "Permit-to-work systems", "Rescue planning"],
     outcomes: ["Safely plan confined space entry", "Apply atmospheric testing protocols"],
     image: "course-confined-space",
-    featured: false,
+    featured: true,
   },
   {
     slug: "work-at-height",
@@ -112,7 +112,7 @@ export const courses = [
     modules: ["Investigation methodology", "Root-cause analysis", "Corrective action planning"],
     outcomes: ["Lead structured incident investigations", "Identify systemic root causes"],
     image: "course-investigation",
-    featured: false,
+    featured: true,
   },
   {
     slug: "hse-management-systems",

@@ -45,3 +45,15 @@ textarea:focus-visible {
     scroll-behavior: auto !important;
   }
 }
+
+
+
+@layer components {
+  .legal-heading {
+    @apply font-display text-2xl font-semibold text-charcoal mb-4;
+  }
+
+  .legal-list {
+    @apply list-disc pl-6 space-y-2;
+  }
+}

@@ -6,7 +6,7 @@
 
 export const brand = {
   name: "Health and Saftey Manengment",
-  shortName: "HSE",
+  shortName: "HSM",
   tagline: "Build a Safer Career. Create a Better Tomorrow.",
   legalName: "[Legal / Registered Business Name — to be confirmed]",
 };

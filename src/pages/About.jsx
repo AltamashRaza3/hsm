@@ -5,6 +5,8 @@ import WhyLearnWithUs from "../components/WhyLearnWithUs";
 import JourneyTimeline from "../components/JourneyTimeline";
 import FinalCTA from "../components/FinalCTA";
 import { brand } from "../data/site";
+import FAQSection from "../components/FAQSection";
+import DirectorProfile from "../components/DirectorProfile";
 
 export default function About() {
   return (
@@ -20,8 +22,10 @@ export default function About() {
       />
       <AboutBrand />
       <JourneyTimeline />
+      <DirectorProfile/>
       <WhyLearnWithUs />
       <FinalCTA />
+      <FAQSection/>
     </>
   );
 }

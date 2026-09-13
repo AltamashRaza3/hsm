@@ -10,7 +10,7 @@ const icons = {
   "fire-industrial-safety": Flame,
   "specialist-safety-training": HardHat,
   "corporate-training": Building2,
-  consultancy: ClipboardList,
+  "consultancy": ClipboardList,
 };
 
 export default function CourseCategories() {
@@ -35,7 +35,7 @@ export default function CourseCategories() {
                 className="group flex items-center justify-between p-5 border border-stone-200 rounded-sm hover:border-green-500/50 hover:bg-stone-50 transition-colors"
               >
                 <span className="flex items-center gap-3">
-                  <span className="flex items-center justify-center w-10 h-10 rounded-sm bg-navy-900 text-green-400 shrink-0">
+                  <span className="flex items-center justify-center w-10 h-10 rounded-sm text-green-400 shrink-0">
                     <Icon className="w-5 h-5" strokeWidth={1.75} />
                   </span>
                   <span className="font-medium text-charcoal text-sm">{cat.name}</span>

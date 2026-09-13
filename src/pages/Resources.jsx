@@ -6,6 +6,7 @@ import PageHeader from "../components/PageHeader";
 import ImagePlaceholder from "../components/ImagePlaceholder";
 import { resources, resourceCategories } from "../data/resources";
 import { brand } from "../data/site";
+import SafetyQuizSection from "../components/SafetyQuizSection";
 
 export default function Resources() {
   const [active, setActive] = useState("All");
@@ -75,6 +76,7 @@ export default function Resources() {
           )}
         </div>
       </section>
+      <SafetyQuizSection/>
     </>
   );
 }

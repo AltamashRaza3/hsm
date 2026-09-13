@@ -11,6 +11,9 @@
 
 import hero from "../assets/images/hero/hero2.png";
 
+//journey-cta
+import journeyCta from "../assets/images/hero/hero.png";
+
 // Course images
 import confinedSpace from "../assets/images/courses/confined-space.png";
 import environmentalManagement from "../assets/images/courses/environmental-management.png";
@@ -38,10 +41,7 @@ export const siteImages = {
   about: "/images/about-editorial.jpg",
 
   // Placeholder — final image can be added later
-  journeyCta: "/images/journey-cta.jpg",
-
-  // Placeholder — final image can be added later
-  finalCta: "/images/final-cta.jpg",
+  journeyCta,
 
   // -------------------------------------------------------------------------
   // COURSE IMAGES

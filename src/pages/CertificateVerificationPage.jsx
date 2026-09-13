@@ -8,13 +8,19 @@ export default function CertificateVerificationPage() {
     <>
       <Helmet>
         <title>Certificate Verification | {brand.name}</title>
-        <meta name="description" content="Verify the authenticity of a certificate issued by us." />
+
+        <meta
+          name="description"
+          content="Verify your IOSH or NEBOSH certification through the official verification service."
+        />
       </Helmet>
+
       <PageHeader
-        eyebrow="VERIFICATION"
+        eyebrow="CERTIFICATE VERIFICATION"
         title="Verify Your Certificate"
-        description="Confirm the authenticity of a certificate using its certificate number."
+        description="Select your certification provider and access the official verification service to verify your certificate."
       />
+
       <CertificateVerification standalone />
     </>
   );
